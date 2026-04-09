@@ -1,0 +1,92 @@
+/* ===== EDUCATION ===== */
+.education {
+  background: var(--color-bg-alt);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+.education-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-xl);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+
+.education-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--color-accent), #0088FF);
+}
+
+.education-card:hover {
+  box-shadow: 0 4px 20px var(--color-shadow);
+  transform: translateY(-2px);
+}
+
+.education-card-degree {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.education-card h3 {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-xs);
+}
+
+.education-card .institution {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.education-card .period {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.education-card p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.education-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 4px 12px;
+  background: rgba(0, 212, 255, 0.08);
+  color: var(--color-accent);
+  border-radius: 100px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  margin-top: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .education-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .education-card h3 {
+    font-size: var(--font-size-lg);
+  }
+}

@@ -1,0 +1,68 @@
+/* ===== APPROACH ===== */
+.approach-content {
+  max-width: 720px;
+}
+
+.approach-intro {
+  font-size: var(--font-size-base);
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xl);
+}
+
+.approach-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.approach-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+}
+
+.approach-item:hover {
+  box-shadow: 0 4px 16px var(--color-shadow);
+  transform: translateY(-2px);
+}
+
+.approach-item-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(0, 136, 255, 0.1));
+  border-radius: var(--border-radius-sm);
+  color: var(--color-accent);
+  margin-top: 2px;
+}
+
+.approach-item-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.approach-item p {
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+.approach-item p strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .approach-intro {
+    font-size: var(--font-size-lg);
+  }
+}
