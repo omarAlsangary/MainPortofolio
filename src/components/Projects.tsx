@@ -30,17 +30,17 @@ const projects: Project[] = [
   },
   {
     number: '02',
-    title: 'Gym Website',
-    shortDesc: 'A collaborative web application for gym management featuring robust database design and efficient data retrieval systems.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'MySQL'],
+    title: 'GainCalc - Fitness Management',
+    shortDesc: 'A full-stack fitness and nutrition tracking application built with a monorepo architecture, featuring real-time calculations and a cloud-hosted database.',
+    tags: ['React', 'Vite', 'Node.js', 'Express', 'PostgreSQL', 'Neon'],
     details: [
-      'Collaborated with a team to develop a website for gym management.',
-      'Responsible for the database design and data retrieval.',
-      'Implemented responsive front-end interfaces aligned with user requirements.',
+      'Developed a full-stack monorepo application using the PERN stack for efficient fitness data management.',
+      'Integrated Neon (PostgreSQL) for scalable cloud database storage with secure SSL connection handling.',
+      'Implemented a responsive frontend with Vite, ensuring fast load times and optimized performance.',
     ],
-    highlights: ['Database Design', 'Team Collaboration', 'Full-Stack'],
+    highlights: ['Full-Stack Development', 'Monorepo Architecture', 'Cloud Database Integration'],
     imgUrl: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800',
-    link: '#',
+    link: 'https://gain-calc.vercel.app/',
   },
   {
     number: '03',
@@ -109,12 +109,12 @@ export default function Projects() {
                   <img src={project.imgUrl} alt={project.title} className="project-image" loading="lazy" />
                   <div className="project-image-overlay">
                     <span className="project-image-view-cta">
-                      View Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                      View Project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
                     </span>
                   </div>
                 </div>
               </a>
-              <div 
+              <div
                 className="project-card-content"
                 onClick={() => setSelectedProject(project)}
                 role="button"
@@ -132,7 +132,7 @@ export default function Projects() {
                 <div className="project-card-cta">
                   View Details
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+                    <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
                   </svg>
                 </div>
               </div>
@@ -152,7 +152,7 @@ export default function Projects() {
               <h2>{selectedProject.title}</h2>
               <button className="modal-close" onClick={closeModal} aria-label="Close modal">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                  <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
               </button>
             </div>
