@@ -79,7 +79,7 @@ export default function Contact() {
       </div>
       <footer className="footer">
         <div className="container">
-          <p>© {new Date().getFullYear()} Omar Khaled Elsangary. Built with precision and purpose.</p>
+          <p>© {new Date().getFullYear()} Omar Khaled Alsangary. Built with precision and purpose.</p>
         </div>
       </footer>
     </section>

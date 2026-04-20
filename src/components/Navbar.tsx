@@ -52,7 +52,7 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="navbar-inner">
         <a href="#home" className="navbar-logo" onClick={(e) => { e.preventDefault(); handleNavClick('home') }}>
-          O<span>K</span>E
+          O<span>K</span>A
         </a>
 
         <div className="navbar-links">

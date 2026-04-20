@@ -17,16 +17,16 @@ const projects: Project[] = [
     number: '01',
     title: 'Gamified Event Management System',
     shortDesc: 'A full-stack event management platform with gamification features to enhance user engagement. Earned "Excellent" grade as graduation project.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Stripe', 'Firebase'],
+    tags: ['HTML', 'CSS', 'TypeScript', 'Next.js', 'postgreSQL', 'Stripe', 'Clerk', 'Tailwind'],
     details: [
-      'Collaborated with a team to develop an event management system with gamification features to enhance user engagement.',
-      'Developed the front and back end of profile and gamification pages.',
-      'Authored the Software Requirements Specification (SRS).',
+      'A full-stack web platform built for students, professionals, and communities to discover, host, and attend learning events — with a gamification layer that rewards every interaction.',
+      'Built with Next.js, TypeScript, PostgreSQL, Stripe, Clerk, and Tailwind CSS.',
+      'Features include event discovery, registration, ticketing, gamification, and user management.',
       'Earned "Excellent" grade in graduation project.',
     ],
     highlights: ['Full SDLC', 'Team Collaboration', 'Clean Code', 'Engineering Excellence'],
-    imgUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800',
-    link: '#',
+    imgUrl: '/gems.png',
+    link: 'https://gems-mauve-iota.vercel.app/',
   },
   {
     number: '02',
@@ -44,7 +44,7 @@ const projects: Project[] = [
   },
   {
     number: '03',
-    title: 'Competitive Programming Mastery',
+    title: 'hekaytna',
     shortDesc: 'Solved 1,400+ problems across LeetCode, Codeforces, and other judges, demonstrating algorithmic depth.',
     tags: ['C/C++', 'Python', 'DSA', 'Algorithms'],
     details: [
@@ -52,14 +52,14 @@ const projects: Project[] = [
       'Demonstrates deep mastery of Data Structures & Algorithms and fast-paced problem-solving under pressure.',
     ],
     highlights: ['1400+ Problems', 'Data Structures', 'Problem-Solving', 'Algorithmic Thinking'],
-    imgUrl: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&q=80&w=800',
-    link: '#',
+    imgUrl: '/hekaitna.svg',
+    link: "https://hekaitna-git-main-omars-projects-08e0bdf4.vercel.app/",
   },
   {
     number: '04',
-    title: 'Full-Stack Development Internship Projects',
+    title: 'Almosalamy Group',
     shortDesc: 'Developed responsive websites and full-stack solutions at Almosallamy Group, aligning with client requirements and brand guidelines.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'],
+    tags: ['HTML', 'CSS', 'JavaScript', 'React'],
     details: [
       'Developed responsive websites aligning with client requirements and brand guidelines.',
       'Contributed to full-stack solutions (front-end and back-end).',
@@ -67,7 +67,7 @@ const projects: Project[] = [
     ],
     highlights: ['Client Projects', 'Full-Stack', 'Brand Guidelines', 'Production Code'],
     imgUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800',
-    link: '#',
+    link: 'https://almossalmy-group.vercel.app/',
   },
 ]
 

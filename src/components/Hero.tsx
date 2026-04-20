@@ -12,8 +12,7 @@ export default function Hero() {
             Available for opportunities in the UAE
           </div>
           <h1 className="hero-title">
-            Omar Khaled<br />
-            <span className="highlight">Elsangary</span>
+            Omar Khaled Alsangary<br />
           </h1>
           <p className="hero-subtitle">
             Building clean, scalable, and maintainable software solutions. Passionate about writing efficient code, solving complex problems, and delivering high-quality technology projects in the UAE.
@@ -55,7 +54,7 @@ export default function Hero() {
               className="hero-image-ring-circle"
             />
           </svg>
-          <img src={headshot} alt="Omar Khaled Elsangary" className="hero-image" />
+          <img src={headshot} alt="Omar Khaled (Alsangary)" className="hero-image" />
         </div>
       </div>
     </section>
