@@ -45,7 +45,7 @@ const projects: Project[] = [
   {
     number: '03',
     title: 'hekaytna',
-    shortDesc: 'Solved 1,400+ problems across LeetCode, Codeforces, and other judges, demonstrating algorithmic depth.',
+    shortDesc: 'hekaytna is a gamified event platform where you discover, host, and attend events — and earn XP for every step of the journey.',
     tags: ['HTML', 'CSS', 'TypeScript', 'Next.js', 'postgreSQL', 'Stripe', 'Clerk', 'Tailwind'],
     details: [
       'hekaytna is a platform that helps you to find the best places to visit in Egypt.',
@@ -53,7 +53,7 @@ const projects: Project[] = [
       'Features include event discovery, registration, ticketing, gamification, and user management.',
       'Earned "Excellent" grade in graduation project.',
     ],
-    highlights: ['1400+ Problems', 'Data Structures', 'Problem-Solving', 'Algorithmic Thinking'],
+    highlights: ['Full-Stack Developement', 'Database', 'UI/UX', 'Security'],
     imgUrl: '/hekaitna.svg',
     link: "https://hekaitna-git-main-omars-projects-08e0bdf4.vercel.app/",
   },
