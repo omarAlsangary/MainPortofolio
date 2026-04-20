@@ -45,7 +45,7 @@ const projects: Project[] = [
   {
     number: '03',
     title: 'hekaytna',
-    shortDesc: 'hekaytna is a gamified event platform where you discover, host, and attend events — and earn XP for every step of the journey.',
+    shortDesc: 'hekaytna is a platform where you discover best places to visit in Egypt',
     tags: ['HTML', 'CSS', 'TypeScript', 'Next.js', 'postgreSQL', 'Stripe', 'Clerk', 'Tailwind'],
     details: [
       'hekaytna is a platform that helps you to find the best places to visit in Egypt.',
