@@ -23,7 +23,7 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="/omarAlsangary.pdf"
+              href="/myResume.pdf"
               download
               className="btn btn-secondary"
             >
