@@ -59,18 +59,34 @@ const projects: Project[] = [
   },
   {
     number: '04',
-    title: 'Almosalamy Group',
-    shortDesc: 'Developed responsive websites and full-stack solutions at Almosallamy Group, aligning with client requirements and brand guidelines.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+    title: 'AEA Finance',
+    shortDesc: 'A full-stack Finance SaaS platform for managing transactions, income, and expenses with interactive data visualization and real-time bank integration.',
+    tags: ['Next.js', 'TypeScript', 'Hono.js', 'PostgreSQL', 'Plaid', 'Tailwind CSS'],
     details: [
-      'Developed responsive websites aligning with client requirements and brand guidelines.',
-      'Contributed to full-stack solutions (front-end and back-end).',
-      'Ensured clean, maintainable code following best practices and industry standards.',
+      'Built a full-stack Finance SaaS with Next.js App Router and Hono.js RPC for end-to-end type safety across client and server.',
+      'Integrated Plaid for real-time bank account connectivity and Lemon Squeezy for subscription-based payment management.',
+      'Designed interactive financial dashboards using Recharts (area, bar, and radial charts) with date-range filtering and period-over-period comparisons.',
+      'Implemented CSV import with custom header mapping via React Papa Parse, and advanced form validation using React Hook Form and Zod.',
+      'Used Drizzle ORM with Neon serverless PostgreSQL for schema management, storing amounts as milliunits for mathematical precision.',
     ],
-    highlights: ['Client Projects', 'Full-Stack', 'Brand Guidelines', 'Production Code'],
-    imgUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800',
-    link: 'https://almossalmy-group.vercel.app/',
+    highlights: ['Bank Integration', 'SaaS', 'Data Visualization', 'Full-Stack'],
+    imgUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800',
+    link: 'https://aea-finance.vercel.app/',
   },
+  // {
+  //   number: '05',
+  //   title: 'Almosalamy Group',
+  //   shortDesc: 'Developed responsive websites and full-stack solutions at Almosallamy Group, aligning with client requirements and brand guidelines.',
+  //   tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+  //   details: [
+  //     'Developed responsive websites aligning with client requirements and brand guidelines.',
+  //     'Contributed to full-stack solutions (front-end and back-end).',
+  //     'Ensured clean, maintainable code following best practices and industry standards.',
+  //   ],
+  //   highlights: ['Client Projects', 'Full-Stack', 'Brand Guidelines', 'Production Code'],
+  //   imgUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800',
+  //   link: 'https://almossalmy-group.vercel.app/',
+  // },
 ]
 
 export default function Projects() {

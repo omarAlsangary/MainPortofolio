@@ -3,7 +3,7 @@ import './Experience.css'
 const experiences = [
   {
     title: 'Software Engineer',
-    company: 'Almosallamy Group',
+    company: 'Almosallamy Group', 
     period: 'Dec 2024 – Oct 2025',
     description: [
       'Developed and customized scalable frontend features using React, TypeScript, and CSS, aligning implementations with client requirements and business goals.',
