@@ -74,7 +74,7 @@ const projects: Project[] = [
     link: 'https://aea-finance.vercel.app/',
   },
   // {
-  //   number: '05',
+  //   number: '12',
   //   title: 'Almosalamy Group',
   //   shortDesc: 'Developed responsive websites and full-stack solutions at Almosallamy Group, aligning with client requirements and brand guidelines.',
   //   tags: ['HTML', 'CSS', 'JavaScript', 'React'],
@@ -87,6 +87,23 @@ const projects: Project[] = [
   //   imgUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800',
   //   link: 'https://almossalmy-group.vercel.app/',
   // },
+
+  {
+    number: '05',
+    title: 'Elecra',
+    shortDesc: 'A production-ready electronics e-commerce store with a full shopping cart, Clerk authentication, and Stripe checkout — built with AI-assisted development using Claude + Cursor.',
+    tags: ['Next.js 14', 'TypeScript', 'Clerk', 'Stripe', 'Zustand', 'Tailwind CSS', 'Framer Motion'],
+    details: [
+      'Built a full-stack electronics store with Next.js 14 App Router, featuring a product catalog with category filtering, real-time search, and sort controls.',
+      'Integrated Clerk OAuth/JWT authentication with route-level middleware protecting checkout and order routes.',
+      'Implemented Stripe Checkout Sessions for secure one-time payments with webhook verification and a post-payment success flow.',
+      'Designed a persistent shopping cart using Zustand with localStorage sync, supporting quantity updates, item removal, and animated cart drawer.',
+      'Leveraged AI-assisted development (Claude + Cursor) to architect and scaffold the full project — demonstrating effective use of modern AI tooling to accelerate production-grade delivery.',
+    ],
+    highlights: ['E-Commerce', 'Stripe Payments', 'Clerk Auth', 'AI-Assisted Dev'],
+    imgUrl: 'https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&q=80&w=800',
+    link: 'https://electra-omega.vercel.app/',
+  },
 ]
 
 export default function Projects() {
