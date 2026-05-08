@@ -127,6 +127,7 @@ export default function Projects() {
     }
   }, [selectedProject, closeModal])
 
+
   return (
     <section id="projects" className="section projects">
       <div className="container">
