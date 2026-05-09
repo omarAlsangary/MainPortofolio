@@ -75,7 +75,7 @@ const projects: Project[] = [
   },
   // {
   //   number: '12',
-  //   title: 'Almosalamy Group',
+  //   title: ' Group',
   //   shortDesc: 'Developed responsive websites and full-stack solutions at Almosallamy Group, aligning with client requirements and brand guidelines.',
   //   tags: ['HTML', 'CSS', 'JavaScript', 'React'],
   //   details: [

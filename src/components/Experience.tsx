@@ -1,29 +1,29 @@
 import './Experience.css'
 
 const experiences = [
-  {
-    title: 'Software Engineer',
-    company: 'Almosallamy Group', 
-    period: 'Dec 2024 – Oct 2025',
-    description: [
-      'Developed and customized scalable frontend features using React, TypeScript, and CSS, aligning implementations with client requirements and business goals.',
-      'Optimized application performance and responsiveness by reducing unnecessary re-renders and improving component efficiency.',
-      'Maintained production systems, resolving critical bugs and ensuring stability across browsers and devices.',
-      'Collaborated directly with clients and cross-functional teams to deliver iterative UI/UX improvements under tight deadlines.',
-      'Improved code quality by implementing reusable components and enhancing frontend architecture.',
-    ],
-  },
-  {
-    title: 'Software Engineering Intern',
-    company: 'Almosallamy Group',
-    period: 'Sep 2024 – Nov 2024',
-    description: [
-      'Built responsive, cross-browser user interfaces using HTML, CSS, and JavaScript following modern UI/UX practices.',
-      'Refactored legacy frontend code to improve maintainability, readability, and scalability.',
-      'Integrated RESTful APIs in collaboration with backend developers, ensuring smooth data flow.',
-      'Gained hands-on experience with real-world development workflows and team collaboration.',
-    ],
-  },
+  // {
+  //   title: 'Software Engineer',
+  //   company: 'Almosallamy Group', 
+  //   period: 'Dec 2024 – Oct 2025',
+  //   description: [
+  //     'Developed and customized scalable frontend features using React, TypeScript, and CSS, aligning implementations with client requirements and business goals.',
+  //     'Optimized application performance and responsiveness by reducing unnecessary re-renders and improving component efficiency.',
+  //     'Maintained production systems, resolving critical bugs and ensuring stability across browsers and devices.',
+  //     'Collaborated directly with clients and cross-functional teams to deliver iterative UI/UX improvements under tight deadlines.',
+  //     'Improved code quality by implementing reusable components and enhancing frontend architecture.',
+  //   ],
+  // },
+  // {
+  //   title: 'Software Engineering Intern',
+  //   company: 'Almosallamy Group',
+  //   period: 'Sep 2024 – Nov 2024',
+  //   description: [
+  //     'Built responsive, cross-browser user interfaces using HTML, CSS, and JavaScript following modern UI/UX practices.',
+  //     'Refactored legacy frontend code to improve maintainability, readability, and scalability.',
+  //     'Integrated RESTful APIs in collaboration with backend developers, ensuring smooth data flow.',
+  //     'Gained hands-on experience with real-world development workflows and team collaboration.',
+  //   ],
+  // },
   {
     title: 'Session Lead (Part-time)',
     company: 'Udacity (Outsourced to DECI)',
