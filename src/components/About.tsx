@@ -9,7 +9,7 @@ export default function About() {
 
         <div className="about-metrics about-metrics-3 reveal reveal-delay-1">
           <div className="metric">
-            <span className="metric-title">1500+</span>
+            <span className="metric-title">1600+</span>
             <span className="metric-desc">Problems Solved</span>
           </div>
           <div className="metric">
