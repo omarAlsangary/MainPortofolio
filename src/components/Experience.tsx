@@ -2,15 +2,13 @@ import './Experience.css'
 
 const experiences = [
   {
-    title: 'Software Engineer',
-    company: 'Almosallamy Group', 
-    period: 'Dec 2024 – Oct 2025',
+    title: 'Cybersecurity Instructor (Level 3)',
+    company: 'EYouth',
+    period: 'April 2026 – Current',
     description: [
       'Delivered Live Session on cybersecurity fundamentals.',
-      'Optimized application performance and responsiveness by reducing unnecessary re-renders and improving component efficiency.',
-      'Maintained production systems, resolving critical bugs and ensuring stability across browsers and devices.',
-      'Collaborated directly with clients and cross-functional teams to deliver iterative UI/UX improvements under tight deadlines.',
-      'Improved code quality by implementing reusable components and enhancing frontend architecture.',
+      'Maintained a near-perfect student attendance rate of 98% (147/150 as of 8 June 2026), reflecting consistent student engagement and session quality.',
+      'Maintain instructor rating of 4.95/5 across 378 student survey responses (as of 8 June 2026), with scores of 4.91 in clarity, 4.96 in engagement, and 4.98 in responsiveness to questions ',
     ],
   },
   {
@@ -63,7 +61,11 @@ export default function Experience() {
               <div className="timeline-card">
                 <h3>{exp.title}</h3>
                 <div className="company">{exp.company}</div>
-                <p>{exp.description}</p>
+                <ul className="description-list">
+                  {exp.description.map((point, j) => (
+                    <li key={j}>{point}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           ))}

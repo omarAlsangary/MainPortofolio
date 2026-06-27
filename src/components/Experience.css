@@ -44,6 +44,19 @@
   letter-spacing: 0.05em;
   margin-bottom: var(--space-xs);
 }
+.description-list {
+  margin: 8px 0 0 0;
+  padding-left: 18px;
+}
+
+.description-list li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.description-list li:last-child {
+  margin-bottom: 0;
+}
 
 .timeline-card {
   background: var(--color-bg-card);
