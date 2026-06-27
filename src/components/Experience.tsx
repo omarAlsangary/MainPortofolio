@@ -3,7 +3,7 @@ import './Experience.css'
 const experiences = [
   {
     title: 'Cybersecurity Instructor (Level 3)',
-    company: 'EYouth',
+    company: 'EYouth (Outsourced to DECI)',
     period: 'April 2026 – Current',
     description: [
       'Delivered Live Session on cybersecurity fundamentals.',
@@ -39,9 +39,9 @@ const experiences = [
     company: 'Almentor (Outsourced to DECI)',
     period: 'Nov 2024 – Jul 2025',
     description: [
-      'Delivered structured programming sessions covering Python, problem-solving, and algorithmic thinking.',
-      'Maintained a near-perfect student attendance rate of 98% (147/150 as of 8 June 2026), reflecting consistent student engagement and session quality',
-      'Maintain instructor rating of 4.95/5 across 378 student survey responses (as of 8 June 2026), with scores of 4.91 in clarity, 4.96 in engagement, and 4.98 in responsiveness to questions',
+      'Guided students through programming sessions from requirements gathering to project completion.',
+      'Assessed and provided constructive feedback on student projects during summer programs.',
+      'Fostered an interactive learning environment to enhance student understanding and engagement',
     ],
   },
 ];
