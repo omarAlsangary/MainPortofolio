@@ -19,7 +19,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-item-text">
                   <span className="contact-item-label">Email</span>
-                  <span className="contact-item-value">omar.sangaryy@gmail.com</span>
+                  <span className="contact-item-value">omaralsangaryy@gmail.com</span>
                 </div>
               </a>
               <a href="tel:+971583031464" className="contact-item">
